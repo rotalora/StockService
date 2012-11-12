@@ -1,0 +1,101 @@
+/*
+    Document   : style
+    Created on : Nov 5, 2012, 6:50:36 PM
+    Author     : rotalora
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root {
+    display: block;
+}
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: smaller;
+    padding: 50px;
+    color: #555;
+}
+
+h1 {
+    text-align: left;
+    letter-spacing: 6px;
+    font-size: 1.4em;
+    color: #be7429;
+    font-weight: normal;
+    width: 450px;
+}
+
+h2 {
+    text-align: left;
+    letter-spacing: 6px;
+    font-size: 1.3em;
+    color: #be1429;
+    font-weight: normal;
+    width: 450px;
+}
+
+table {
+    width: 700px;
+    padding: 10px;
+    background-color: #c5e7e0;
+}
+
+th {
+    padding: 4px;
+    text-align: left;
+    border-bottom: 1px solid;
+}
+
+th#stocks {
+    padding: 4px;
+    text-align: right;
+    border-bottom: 1px solid;
+}
+
+tr {
+    color: #be7429;
+}
+
+td {
+    padding: 6px;
+    color: #be7429;
+}
+
+td#stocks {
+    text-align: right;
+    padding: 2px;
+    color: #be7429;
+}
+
+ul#list-nav {
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+    width: 525px;
+}
+
+ul#list-nav li {
+    display: inline;
+}
+
+ul#list-nav li a {
+    text-decoration: none;
+    padding: 5px 0;
+    width: 100px;
+    background: #c5e7e0;
+    color: #be7429;
+    float: left;
+    text-align: center;
+    border-left: 1px solid #fff;
+}
+
+ul#list-nav li a:hover {
+    background: #a2b3a1;
+    color: #000;
+}
